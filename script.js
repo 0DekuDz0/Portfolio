@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {"name": "C", "icon": "asset/icons8-c++.svg"},
     {"name": "Java", "icon": "asset/icons8-logo-java-coffee-cup.svg"},
     {"name": "Python", "icon": "asset/icons8-python.svg"},
-    {"name": "SQL", "icon": "asset/icons8-MYsql.svg"},
+    {"name": "SQL", "icon": "asset/icons8-mysql.svg"},
     {"name": "MongoDB", "icon": "asset/icons8-mongodb.svg"},
     {"name": "React", "icon": "asset/icons8-réagir.svg"},
     {"name": "Next.js", "icon": "asset/icons8-suivantjs.svg"},
