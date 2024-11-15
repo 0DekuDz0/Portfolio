@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const skillsList = document.getElementById("skills-list");
   const projectsList = document.getElementById("projects-list");
+  const menu = document.getElementById("menu");
 
   const skills = [
     {"name": "HTML", "icon": "asset/icons8-html.svg"},
