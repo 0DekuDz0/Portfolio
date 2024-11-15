@@ -10,7 +10,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: var(--font-family)
+  font-family: var(--font-family);
 }
 
 a{
@@ -43,7 +43,7 @@ header{
 }
 
 header img{
-  width: 3;
+  width: 30%;
 }
 
 header div{
@@ -57,6 +57,8 @@ header div img{
   width: 50%;
   height: 4rem;
 }
+
+
 
 header ul{
   margin-right: 5rem;
@@ -343,7 +345,7 @@ small{
 
 
 
-.menu{
+.menuBtn{
   height: 90%;
   width: 20%;
   border: none;
@@ -384,14 +386,26 @@ small{
     display:none
   }
 
-  .menu{
+  .menuBtn{
     display: inline-flex;
   }
 
   .menu-list{
     display: none;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    top: 5vh;
+    left: 0;
+    height: 30vh;
+    width: 100vw;
   }
 
+  .hidden{
+    display: flex;
+  }
   #home div{
     height: auto;
   }

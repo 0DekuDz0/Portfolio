@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
   const skillsList = document.getElementById("skills-list");
   const projectsList = document.getElementById("projects-list");
-  const menu = document.getElementById("menu");
+  const menubtn = document.getElementById("menuBtn");
+  const menu = document.getElementById("menu-list");
 
   const skills = [
     {"name": "HTML", "icon": "asset/icons8-html.svg"},
@@ -52,4 +53,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Call function only once
   fetchGitHubProjects();
+
+
+  menubtn.addEventListener("click",()=>{
+    console.log("dd")
+    menu.classList.toggle("hidden");
+  })
 });
